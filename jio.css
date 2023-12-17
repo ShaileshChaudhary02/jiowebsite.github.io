@@ -1,0 +1,926 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #0F3CC9;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    display: block;
+    padding-left: 35px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.search-user {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.userbox {
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+#click {
+    display: none;
+}
+
+.first {
+    background-image: url(first.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 430px;
+}
+
+.first h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.first p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.first .btn1 {
+    padding: 15px 20px;
+    margin-left: 35px;
+    background-color: #0F3CC9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+}
+
+.option-menu {
+    margin: auto;
+    max-width: 100%;
+}
+
+.icon {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #0F3CC9;
+
+}
+
+.img svg {
+    margin-left: 12px;
+    width: 60px;
+    padding: 10px;
+    background: #E7EBF8;
+    border-radius: 50%;
+
+}
+
+.img p {
+    padding-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.true-5G {
+    max-width: 92%;
+    margin: auto;
+    background-image: url(true5g-desk.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.true-5G .head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.btn2 {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FA7D19;
+}
+
+.btn2:hover {
+    background: #FA7D19;
+    color: #fff;
+}
+
+.head2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.head2 h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.head2 p {
+    padding-top: 10px;
+    line-height: 1.3;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.add {
+    display: flex;
+    background-color: #D9008D;
+    width: 100%;
+    height: auto;
+}
+
+.jio-box {
+    width: 40%;
+    padding-left: 70px;
+    padding-right: 100px;
+}
+
+.jio-box img {
+    padding-top: 80px;
+    width: 200px;
+}
+
+.jio-box h1 {
+    font-size: 39px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.jio-box .btn3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #62003F;
+    background: #FFF7FC;
+}
+
+.video-add {
+    width: 60%;
+    padding: 15px;
+}
+
+.video-add video {
+    max-width: 100%;
+    border-radius: 24px;
+}
+
+.card-line {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    width: 420px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.blue {
+    background: #0F3CC9;
+    background-image: url(jionewsbackgroung.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    background: #1ECCB0;
+    background-image: url(saavn-19-05-2023.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green {
+    background: #00B259;
+    background-image: url(JioGames-19-05.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orrange {
+    background: #FA7D19;
+    background-image: url(JioMeet-19-05.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pink {
+    background: #D9008D;
+    background-image: url(JioCinema-19-05.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tv {
+    background: #0F3CC9;
+    background-image: url(JioTV-v2-19-05-2023.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-logo span {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.card-head {
+    font-size: 12px;
+    width: 190px;
+    padding: 10px;
+    color: white;
+}
+
+.btn4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #62003F;
+    background: #FFF7FC;
+}
+
+.button-app {
+    display: flex;
+    justify-content: center;
+}
+
+.btn5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #0F3CC9;
+}
+
+.heading-spot {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.heading-spot h1 {
+    font-size: 64px;
+}
+
+.heading-spot p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 92%;
+    height: auto;
+    background: #6D17CE;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.movie-head {
+    width: 50%;
+}
+
+.movie-head h3 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.movie-head h1 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.movie-head P {
+    padding-top: 10px;
+    color: #DFCCF4;
+    padding-left: 25px;
+}
+
+.btn-movie {
+    color: white;
+    background: #6D17CE;
+    margin: 20px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.movie-img {
+    width: 50%;
+}
+
+.movie-img img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.letest {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.letest h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.letest p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.jio-build {
+    max-width: 92%;
+    margin: 20px auto;
+    height: auto;
+    background-image: url(carrier-desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.jio-build h1 {
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.jio-build p {
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #DFCCF4;
+}
+
+.btn-build {
+    margin: 25px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    background: #0F3CC9;
+    color: #E7EBF8;
+    border-radius: 25px;
+}
+
+.shopping-card {
+    max-width: 92%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.shop {
+    margin-left: 15px;
+}
+
+.shop img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.shop-head {
+    background: #0F3CC9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+}
+
+.shop-head h1 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.shop-btn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 14px;
+    border: none;
+    background: #BECEFB;
+    color: #061951;
+}
+
+.offer {
+    display: flex;
+    max-width: 92%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.offer-img img {
+    width: 100%;
+}
+
+.mobile-offer {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.mobile-btn {
+    font-size: 12px;
+    font-weight: 700;
+    background: #0C5273;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.price h3 {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #141414;
+    padding-left: 15px;
+}
+
+.price p {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #787878;
+    padding-left: 15px;
+}
+
+.offer-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-btn button {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0F3CC9;
+    margin-bottom: 20px;
+}
+
+.difference{
+    margin: auto ;
+    max-width: 92%;
+
+}
+
+.difference h1{
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.difference p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #565656;
+    text-align: center;
+}
+
+.cards{
+    max-width: 92%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.card9 {
+    margin-left: 15px;
+}
+
+.card9 img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.headings {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    width: 100%;
+    height: 220px;
+}
+
+.headings h3 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.headings p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.know-btn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 14px;
+    border: none;
+    background: #BECEFB;
+    color: #061951;
+}
+
+/* Mobile  */
+
+@media (max-width:992px) {
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #ffe5e5;
+        border-radius: 3px;
+        height: 370px;
+        width: 260px;
+        display: block;
+        transition: all 0.3s;
+    }
+
+    nav ul li {
+        margin: 20px;
+    }
+
+    nav ul li a {
+        color: #000;
+        font-size: 17px;
+        display: block;
+        text-transform: capitalize;
+    }
+
+    nav .menu-btn i {
+        display: block;
+    }
+
+    #click:checked~ul {
+        left: 0%;
+        transition: all 0.5s;
+    }
+
+    #click:checked~.menu-btn i::before {
+        content: "\f00d";
+    }
+
+    .first {
+        background-image: url(JioAirFiber-Homepage-Mobile1.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .first h1 {
+        padding-top: 10px;
+        font-size: 48px;
+        transition: all 0.3s;
+    }
+
+    .first p {
+        font-size: 23px;
+    }
+
+    .head2 h1 {
+        font-size: 48px;
+    }
+
+    .add {
+        display: block;
+    }
+
+    .jio-box {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .jio-box h1 {
+        font-size: 32px;
+    }
+
+    .video-add {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading-spot {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .heading-spot h1 {
+        font-size: 48px;
+    }
+
+    .movie {
+        display: block;
+    }
+
+    .movie-head {
+        width: 100%;
+    }
+
+    .movie-head h1 {
+        font-size: 36px;
+    }
+
+    .movie-img {
+        width: 100%;
+    }
+
+    .letest h1 {
+        font-size: 48px;
+    }
+
+    .jio-build {
+        background-image: url(carrier-mobile.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .jio-build h1 {
+        padding-top: 250px;
+        font-size: 48px;
+    }
+
+    .shopping-card {
+        display: block;
+    }
+
+    .shop-head {
+        height: 160px;
+    }
+
+    .shop {
+        margin-top: 20px;
+    }
+
+    .mobile-btn {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .headings h3 {
+        font-size: 25px;
+    }
+
+    .headings p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:620px) {
+    .offer {
+        display: block;
+    }
+}
+
+@media (max-width:576px) {
+    .first h1 {
+        padding-top: 80px;
+        font-size: 36px;
+        transition: all 0.3s;
+    }
+
+    .head2 h1 {
+        font-size: 38px;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .head2 p {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading-spot {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .heading-spot h1 {
+        font-size: 32px;
+    }
+
+    .movie-head h1 {
+        font-size: 32px;
+    }
+
+    .letest {
+        text-align: left;
+        padding: 15px;
+    }
+
+    .letest h1 {
+        font-size: 32px;
+    }
+
+    .jio-build h1 {
+        font-size: 32px;
+    }
+
+    .shop-head {
+        height: 150px;
+    }
+
+    .shop-head h1 {
+        font-size: 25px;
+    }
+
+    .difference h1{
+        font-size: 30px;
+    }
+
+    .difference p{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .true-5G .head {
+        font-size: 18px;
+    }
+
+    .movie-head h1 {
+        font-size: 22px;
+    }
+
+    .letest h1 {
+        font-size: 21px;
+    }
+
+    .letest p {
+        font-size: 17px;
+    }
+
+    .jio-build h1 {
+        padding-top: 100px;
+        font-size: 32px;
+    }
+
+    .shop-head {
+        height: 180px;
+    }
+
+    .mobile-btn {
+        font-size: 7px;
+        font-weight: 700;
+    }
+
+    .card9{
+        margin-top: 45px;
+    }
+
+}
+
+.foot-btn {
+    border-radius: 50px;
+}
+
+.footlink ul{
+    display: block;
+
+}
